@@ -1,0 +1,1 @@
+function foo(a,b=0){return a+b;}console.log(foo(2,3));//5console.log(foo(2));//2console.log(foo(2,undefined));//2
